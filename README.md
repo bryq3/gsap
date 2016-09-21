@@ -1,1 +1,0 @@
-# gsap-and-parallax-exercise-
