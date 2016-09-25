@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>exercise</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>exercise</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Heebo|Julius+Sans+One|Monoton|Playfair+Display+SC|Shrikhand" rel="stylesheet"> 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+	<link href="https://fonts.googleapis.com/css?family=Heebo|Julius+Sans+One|Monoton|Playfair+Display+SC|Playfair+Display:900|Shrikhand" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
 		<div class="container">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target='.navbar-collapse'>
 				<span class="sr-only"></span>
@@ -58,27 +62,141 @@
 			</div>
 		</div>
 	</nav>
-  <header>
-  	<p>Learn wherever <br> you want <br>with</p>
-  	<img src="img/log.png" alt="">
-  </header>
-   <section id="sectionOne">
-   		<div class="container">
-   			<div class="row service1">
-   				<h4>SERVICES</h4>
-   				<img src="img/line.png" alt="">
-   				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-   			</div>
-   			<div class="row service2">
-   				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="s-1"></div><p>RECORDING<br> SERVICES</p><img src="img/line.png" alt=""></div>
-   				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="s-2"></div><p>YOU GET THE<br> CERTIFICATE</p><img src="img/line.png" alt=""></div>
-   				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><div class="s-3"></div><p>ALL LESSONS ARE<br> VIA SKYPE</p><img src="img/line.png" alt=""></div>
-   			</div>
-   		</div>
-   </section>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+	<header>
+		<p class="headText">Learn wherever
+			<br> you want
+			<br>with</p>
+		<img src="img/log.png" alt="" class="headLogo">
+	</header>
+	<section id="sectionOne">
+		<div class="container">
+			<div class="row service1">
+				<h4>SERVICES</h4>
+				<img src="img/line.png" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+			<div class="row service2">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="s-1"></div>
+					<p>RECORDING
+						<br> SERVICES</p><img src="img/line.png" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="s-2"></div>
+					<p>YOU GET THE
+						<br> CERTIFICATE</p><img src="img/line.png" alt=""></div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="s-3"></div>
+					<p>ALL LESSONS ARE
+						<br> VIA SKYPE</p><img src="img/line.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+	<section id="sectionTwo">
+		<p><span>OUR LESSONS</span>
+			<br>ARE EASY</p>
+		<div class="element">
+			<img src="img/i1.png" alt="">
+			<p>LOREM IPSUM DOOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</p>
+		</div>
+		<img src="img/line2.png" alt="" class="line2">
+		<div class="element">
+			<img src="img/i2.png" alt="">
+			<p>LOREM IPSUM DOOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</p>
+		</div>
+		<img src="img/line2.png" alt="" class="line2">
+		<div class="element">
+			<img src="img/i3.png" alt="">
+			<p>LOREM IPSUM DOOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</p>
+		</div>
+		<img src="img/line2.png" alt="" class="line2">
+		<div class="element">
+			<img src="img/i4.png" alt="">
+			<p>LOREM IPSUM DOOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</p>
+		</div>
+	</section>
+	<section class="shop">
+		<div class="container">
+			<div class="row service1">
+				<h4>SHOP</h4>
+				<img src="img/line.png" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g1.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g2.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g3.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g4.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g5.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g6.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g7.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g8.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-0 col-xs-0">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+					<img src="img/g9.jpg" alt="" class="item">
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-0 col-xs-0">
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="periscopeSection">
+		<div class="periscope">
+		<div class="periscopeContent">
+			<div class="promo">All Classics <br> <strong><span>from</span> 99$</strong><button class="btn">See more</button></div>
+			
+		</div>
+		</div>
+
+	</section>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
