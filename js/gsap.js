@@ -20,19 +20,19 @@ $(window).scroll(function(){
 		
 	});
 });
-	//init scroll magic
-	var controller = new ScrollMagic.Controller();
-	//build a scene
-	var ourScene= new ScrollMagic.Scene({
-		triggerElement:'.service1'
-	})
-	.setClassToggle('.serviceImg', 'fadeIn')
-	.addTo(controller);
+// 	//init scroll magic
+// 	var controller = new ScrollMagic.Controller();
+// 	//build a scene
+// 	var ourScene= new ScrollMagic.Scene({
+// 		triggerElement:'.service1'
+// 	})
+// 	.setClassToggle('.serviceImg', 'fadeIn')
+// 	.addTo(controller);
 	
-	//scene2
-	var ourScene2= new ScrollMagic.Scene({
-		triggerElement:'#sectionTwo'
-	})
-	.setClassToggle('.element', 'fadeIn2')
-	.addTo(controller);
+// 	//scene2
+// 	var ourScene2= new ScrollMagic.Scene({
+// 		triggerElement:'#sectionTwo'
+// 	})
+// 	.setClassToggle('.element', 'fadeIn2')
+// 	.addTo(controller);
 });
