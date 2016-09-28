@@ -1,21 +1,22 @@
 body {
 	background: #f8f9fb;
+	
 }
 
 /////////////////navbar/////////////
 .navbar {
-	background: #05698b;
+	background: white; //#05698b;
 	z-index: 1;
 	box-shadow: 0px 10px 15px #032f3e;
 	border: none !important;
 	font-family: 'Heebo', sans-serif;
 	ul {
-		background: #05698b !important;
+		background: white;//#05698b !important;
 	}
 	li {
-		background: #05698b !important;
+		background: white; //#05698b !important;
 		a {
-			color: white !important;
+			color: black; //white !important;
 			&:hover {
 				color: #032f3e !important;
 			}
@@ -57,7 +58,7 @@ header {
 		width: 80px;
 		-webkit-filter: blur(3px);
 		position: absolute;
-		top: 300px;
+		top: 350px;
 		z-index: 1;
 	}
 }
@@ -65,8 +66,9 @@ header {
 //////////////////SECTION ONE/////////////////////
 #sectionOne {
 	background: #f8f9fb;
+	margin: -30px auto;
 	.container {
-		margin: 0 auto;
+		margin: 0 auto !important;
 	}
 }
 
@@ -109,6 +111,7 @@ header {
 		margin-top: 30px;
 		font-weight: 600;
 		margin-bottom: 20px;
+		
 	}
 	img {
 		margin-bottom: 80px;
@@ -135,6 +138,18 @@ header {
 		background-image: url(../img/s3a.png);
 	}
 }
+.serviceImg{
+
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+
+.fadeIn{
+	opacity: 1;
+	transform: translateY(0);
+}
+
 
 //////////////////////SECTION TWO //////////////////////////
 #sectionTwo {
@@ -182,6 +197,16 @@ header {
 		margin-left: 220px;
 	}
 }
+.imgTwo{
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: all 1s ease-out;
+}
+.fadeIn2{
+	opacity: 1;
+	transform: translateX(0);
+	
+}
 
 h4 {
 	font-family: 'Playfair Display', serif;
@@ -215,28 +240,31 @@ h4 {
 }
 
 /////////////////////PERISCOPE//////////////////
-.periscopeSection{
+.periscopeSection {
 	background: black;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 2;
 }
+
 .periscope {
-	
 	height: 700px;
 	padding: 100px 0;
 	max-width: 400px;
 	margin: 0 auto;
 	text-align: center;
-	.periscopeContent{
+	.periscopeContent {
 		height: 400px;
 		background-image: url(../img/gscope.jpg);
 		background-position: center top;
 		background-attachment: fixed;
 		background-repeat: repeat-y;
-		background-size: contain; 
+		background-size: contain;
 		border-radius: 50%;
 		position: relative;
-		.promo{
-			background: rgba(0,0,0,0.5);
-			position:absolute;
+		.promo {
+			background: rgba(0, 0, 0, 0.5);
+			position: absolute;
 			top: 0;
 			left: 0;
 			right: 0;
@@ -249,26 +277,48 @@ h4 {
 			justify-content: center;
 			align-items: center;
 			font-family: 'Playfair Display SC', serif;
-			strong{
+			strong {
 				font-size: 30px;
 				line-height: 15px;
-				span{
+				span {
 					font-weight: 300;
 					font-size: 18px;
 					font-style: italic;
-					color: rgba(255,255,255,0.5);
+					color: rgba(255, 255, 255, 0.5);
 				}
 			}
-			.btn{
+			.btn {
 				margin-top: 20px;
 				border: 1px solid white;
 				background: transparent;
 				transition: all 0.3s ease-in-out;
-				&:hover{
+				&:hover {
 					background: white;
 					color: black;
 				}
 			}
+		}
+	}
+}
+//.something{
+//	margin-bottom: 100px;
+//	position: relative;
+//	z-index: 2;
+//}
+footer{
+	margin: auto 50px;
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	.social{
+		a{
+			margin: auto 10px;
 		}
 	}
 }
