@@ -154,7 +154,7 @@ header img {
   background-image: url(../img/s3a.png);
 }
 
-.serviceImg {
+/* .serviceImg {
   opacity: 0;
   transform: translateY(50px);
   transition: all 1s ease-out;
@@ -163,7 +163,7 @@ header img {
 .fadeIn {
   opacity: 1;
   transform: translateY(0);
-}
+} */
 
 #sectionTwo {
   height: 700px;
