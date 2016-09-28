@@ -52,7 +52,11 @@ header {
 		margin-bottom: 60px;
 		position: absolute;
 		top: 80px;
+		left: 500px;
 		z-index: 2;
+		display: block;
+		
+		
 	}
 	img {
 		width: 80px;
@@ -62,7 +66,6 @@ header {
 		z-index: 1;
 	}
 }
-
 //////////////////SECTION ONE/////////////////////
 #sectionOne {
 	background: #f8f9fb;
